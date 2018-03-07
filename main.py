@@ -33,8 +33,10 @@ def find_distance():
 
     data = {
         "distance": d,
+
         "a" : a,
-        "b" : b,
+
+        "b" : b
     }
 
     return jsonify(data)
