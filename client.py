@@ -15,5 +15,3 @@ def distance_request():
     distance_info = r.json()
     print(distance_info)
 
-
-distance_request()
